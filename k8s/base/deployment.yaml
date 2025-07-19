@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-miniapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: devops-miniapp
+  template:
+    metadata:
+      labels:
+        app: devops-miniapp
+    spec:
+      containers:
+        - name: devops-miniapp
+          image: your-badshanoorden/devops-miniapp:latest
+          ports:
+            - containerPort: 3000
