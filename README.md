@@ -14,3 +14,4 @@ A sample DevOps project with:
 docker build -t devops-miniapp ./app
 docker run -p 3000:3000 devops-miniapp
 ```
+  
