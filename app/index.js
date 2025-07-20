@@ -1,6 +1,6 @@
 const fastify = require("fastify")({ logger: true });
 fastify.get("/", async () => {
-  return { message: "Welcome nice to Fastify!" };
+  return { message: "Welcome check to Fastify!" };
 });
 
 fastify.get("/health", async () => {
