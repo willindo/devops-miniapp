@@ -3,7 +3,7 @@
 set -e
 
 PROJECT=devops-miniapp
-DOCKER_USER="your-badshanoorden"   # <-- Change this
+DOCKER_USER="your-badshanoordeen"   # <-- Change this
 
 echo "Creating project structure..."
 mkdir -p $PROJECT/{app,k8s/base,.github/workflows,argocd}
