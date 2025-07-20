@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: devops-miniapp
-          image: badshanoordeen/devops-miniapp:latest
+          image: badshanoordeen/devops-miniapp
           ports:
             - containerPort: 3000
           resources:
