@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-  
+
     steps:
     - uses: actions/checkout@v3
 
@@ -25,4 +25,4 @@ jobs:
       with:
         context: ./app
         push: true
-        tags: badshanoorden/devops-miniapp:latest
+        tags: badshanoordeen/devops-miniapp:latest
