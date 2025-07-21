@@ -4,7 +4,7 @@ fastify.get("/", async () => {
 });
 
 fastify.get("/health", async () => {
-  return { status: "ok nice  working " };
+  return { status: "ok nice added  working " };
 });
 
 const start = async () => {
