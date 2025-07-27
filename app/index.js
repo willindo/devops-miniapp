@@ -6,6 +6,10 @@ fastify.get("/", async () => {
 fastify.get("/health", async () => {
   return { status: "ok nice added what working " };
 });
+fastify.get("/user", async () => {
+  return { message: "User endpoint is working!" };
+});
+
 
 const start = async () => {
   try {
